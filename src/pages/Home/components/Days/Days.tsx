@@ -24,7 +24,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "tomorow",
       day_info: "28 авг.",
       icon_id: "mainly_cloudy",
       temp_day: "+18",
@@ -32,7 +32,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "wewe",
       day_info: "28 авг.",
       icon_id: "sun",
       temp_day: "+18",
@@ -40,7 +40,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "ffff",
       day_info: "28 авг.",
       icon_id: "sun",
       temp_day: "+18",
@@ -48,7 +48,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "vvvvv",
       day_info: "28 авг.",
       icon_id: "sun",
       temp_day: "+18",
@@ -56,7 +56,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "jjujju",
       day_info: "28 авг.",
       icon_id: "sun",
       temp_day: "+18",
@@ -64,7 +64,7 @@ export const Days = () => {
       info: "Облочно",
     },
     {
-      day: "Сегодня",
+      day: "iiiioo",
       day_info: "28 авг.",
       icon_id: "sun",
       temp_day: "+18",
@@ -77,7 +77,7 @@ export const Days = () => {
       <Tabs />
       <div className={s.days}>
         {days.map((day: Day) => (
-          <Card day={day} />
+          <Card day={day} key={day.day} />
         ))}
       </div>
     </>
